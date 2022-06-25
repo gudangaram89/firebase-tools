@@ -7,3 +7,6 @@ branding:
 runs:
   using: 'docker'
   image: 'docker://joinflux/firebase-action:9.16.0'
+
+- name: Setup Java JDK
+  uses: actions/setup-java@v3.4.0
